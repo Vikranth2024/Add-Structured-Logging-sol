@@ -1,0 +1,21 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.balance-info {
+  display: flex;
+  flex-direction: column;
+}
+
+tr:hover {
+  background: rgba(255, 255, 255, 0.02);
+}
